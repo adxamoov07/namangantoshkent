@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+header {
+    width: 100vw;
+    height: 90px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 6%;
+}
+.header_link2{
+    position: relative;
+}
+.header_link2:hover::before{
+    content: "BIZ SIZNING POCHTA HIZMATINGIZNI 100 % KAFOLATLAYMIZ ! ";
+    position: absolute;
+    width: 100px;
+    background-color: white;
+    height: 50px;
+}
+header input,
+header label {
+    display: none;
+}
+
+.header_links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50x;
+    margin-left: 100px;
+}
+
+header .header_links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+    margin: 0 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+header .header_links .active {
+    color: red;
+
+}
+
+header .header_links a:hover {
+    transition: .3s;
+    color: #fff;
+}
+
+header .header_btn {
+    padding: 10px 30px;
+    background-color: green;
+    border: 1px solid yellow;
+    color: black;
+    border-radius: 5px;
+}
+
+header .header_btn:hover {
+    padding: 12px 33px;
+    background-color: green;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+/* ________________________________________-- */
+@media screen and (max-width:1150px) {
+    header .header_links a {
+        font-size: 17px;
+    }
+
+    header h1 {
+        font-size: 27px;
+    }
+
+    header .header_btn {
+        padding: 7px 25px;
+    }
+}
+
+@media screen and (max-width:950px) {
+    header .header_links a {
+        font-size: 14px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header .header_btn {
+        padding: 5px 20px;
+    }
+}
+
+@media screen and (max-width:750px) {
+    header {
+        width: 100vw;
+        height: 70px;
+        background-color: orange;
+    }
+
+    header .header_links a {
+        display: none;
+    }
+
+    .checkbox_1 .btn-group {
+        display: block;
+    }
+
+    .checkbox_1 {
+        display: flex;
+        gap: 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .banner {
+        width: 100vw;
+        height: 70vh;
+        background-color: dodgerblue;
+    }
+}
+.cardss{
+    width: 100vw;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+

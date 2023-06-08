@@ -140,6 +140,41 @@ header .header_btn:hover {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap: 30px;
+    gap: 20px;
 }
+@media screen and (max-width:500px) {
+    .cardss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px;
 
+
+    }
+    
+}
+@media screen and (max-width:400px) {
+    .cardss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 5px;
+
+
+    }
+    
+}
+@media screen and (max-width:360px) {
+    .cardss{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 1px;
+
+
+    }
+    
+}

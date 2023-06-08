@@ -14,16 +14,19 @@ header {
     justify-content: space-between;
     padding: 0 6%;
 }
-.header_link2{
+
+.header_link2 {
     position: relative;
 }
-.header_link2:hover::before{
+
+.header_link2:hover::before {
     content: "BIZ SIZNING POCHTA HIZMATINGIZNI 100 % KAFOLATLAYMIZ ! ";
     position: absolute;
     width: 100px;
     background-color: white;
     height: 50px;
 }
+
 header input,
 header label {
     display: none;
@@ -132,7 +135,82 @@ header .header_btn:hover {
         background-color: dodgerblue;
     }
 }
-.cardss{
+.bosh_header{
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+.bosh_header h2{
+    background-color: orange;
+    font-weight: 800;
+}
+@media screen and (max-width:490px) {
+    .bosh_header h2{
+        background-color: orange;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    
+}
+
+.bosh_dispecherlar {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+@media screen and (max-width:500px) {
+    .bosh_dispecherlar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    
+    }
+}
+@media screen and (max-width:430px) {
+    .bosh_dispecherlar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    
+    }
+}
+ @media screen and (max-width:400px) {
+    .bosh_dispecherlar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    
+    }
+} 
+@media screen and (max-width:385px) {
+    .bosh_dispecherlar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 5px;
+    
+    }
+} 
+@media screen and (max-width:365px) {
+    .bosh_dispecherlar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 1px;
+    
+    }
+} 
+
+.cardss {
     width: 100vw;
     height: auto;
     margin-top: 50px;
@@ -142,8 +220,9 @@ header .header_btn:hover {
     flex-wrap: wrap;
     gap: 20px;
 }
+
 @media screen and (max-width:500px) {
-    .cardss{
+    .cardss {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -152,10 +231,11 @@ header .header_btn:hover {
 
 
     }
-    
+
 }
+
 @media screen and (max-width:400px) {
-    .cardss{
+    .cardss {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -164,10 +244,11 @@ header .header_btn:hover {
 
 
     }
-    
+
 }
+
 @media screen and (max-width:360px) {
-    .cardss{
+    .cardss {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -176,5 +257,5 @@ header .header_btn:hover {
 
 
     }
-    
+
 }
